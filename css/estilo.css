@@ -1,0 +1,157 @@
+/*Limpar formatações padrões*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+
+}
+/*===================Logo===================*/
+#area-logo #imagem{
+    width: 350px;
+    height: 65px; 
+    margin: 10px 37% 15px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px; /*Para texto ficar em cima da imagem da logo*/
+}
+#area-cabecalho{
+    background-color: #2D2F34;
+    padding: 15px;
+    text-align: center;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+#area-menu{
+    padding: 10px;
+}
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #dbdbdb; 
+}
+.postagem p, span{
+    color: #4e4e4e;
+}
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #dbdbdb;
+}
+.conteudo-lateral img{
+    border-radius: 7px;
+}
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #CCC;
+    color: #4e4e4e;
+}
+.postagem img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dbdbdb;
+}
+
+/*==================Menu lateral================*/
+.menu-lateral a{
+    border-bottom: 1px solid #f3f3f3; 
+    padding-left: 10px;
+}
+.menu-lateral ul{
+    margin-top: 10px;
+}
+.menu-lateral ul li, .menu-lateral ul a{
+    list-style: none;
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+}
+.menu-lateral ul a:hover{
+    background: #00d6af48 url(../imagens/marcador.png) no-repeat left center;
+    border-radius: 7px;
+    padding-left: 20px;
+    color: #a0a0a0;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background: #2D2F34;
+    color: #CCC;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+}
+
+/*===================Formatações do menu===================*/
+
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #00d6af;
+}
+a:hover{
+    text-decoration: underline;
+}
+#area-menu a:link, #area-menu a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+}
+#area-menu a:hover{
+    color: #00d6af;
+    background: #FFF;
+    text-decoration: none;/*Para tirar o underline atribuido acima no 'a:hover' geral*/
+    border-radius: 8px;
+}
+
+/*===================Formatações em geral===================*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h2{
+    color: #00d6af;
+}
+h3{
+    color: #565656;
+    background: #00d6af;
+    padding: 4px 4px 6px 14px;
+    border: 2px solid #dbdbdb;
+    border-radius: 7px;
+}
+.branco{
+    color: white;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+
+
+/*Efeito botão menu*/
